@@ -4,7 +4,7 @@ A reusable React Table component library!
 
 ## Example
 
-![Example of reusable buttons](https://github.com/gdmichelis/table-ui/blob/main/table_ui.jpg)
+![Example of reusable table](https://github.com/gdmichelis/table-ui/blob/main/table_ui.jpg)
 
 ## Installation
 
@@ -42,6 +42,8 @@ const tableHeaders = ["Name", "Lastname", "Email"];
 const res = await fetch("https://example.com/users", {});
 const usersData = await res.json();
 ```
+
+<p><strong>⚠ Currently the is no way to add icons to the table cells, except text.</strong></p>
 
 ### Rendering the component
 
@@ -160,9 +162,24 @@ This library offers two ways to style your table:
 />
 
 // $zebraEven and $zebraOdd are props that implement the stripped pattern on the table
-// at even or odd rows respectively.
+// on even or odd rows respectively.
 // $backgroundColorHover value, changes table's row background color on hover.
 
+```
+
+### Responsiveness
+
+<p>Table component produces a responsive table, by adding: <p/>
+
+```css
+overflow-x: auto;
+width: 50%;
+```
+
+<p>to the table container. You can always change this value, by defining your own width:</p>
+
+```css
+width: 70%;
 ```
 
 ### Notice
