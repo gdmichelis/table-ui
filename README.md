@@ -161,7 +161,7 @@ This library offers two ways to style your table:
 
 // $zebraEven and $zebraOdd are props that implement the stripped pattern on the table
 // at even or odd rows respectively.
-// $$backgroundColorHover value, changes table's row background color on hover.
+// $backgroundColorHover value, changes table's row background color on hover.
 
 ```
 
