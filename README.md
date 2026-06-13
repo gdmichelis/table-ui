@@ -4,7 +4,7 @@ A reusable React Table component library!
 
 ## Example
 
-![Example of reusable buttons](https://github.com/gdmichelis/button-ui/blob/main/readme_example.jpg)
+![Example of reusable buttons](https://github.com/gdmichelis/table-ui/blob/main/table_ui.jpg)
 
 ## Installation
 
