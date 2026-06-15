@@ -176,10 +176,16 @@ overflow-x: auto;
 width: 50%;
 ```
 
-<p>to the table container. You can always change this value, by defining your own width:</p>
+<p>to the table container. You can always change this value, by defining your own width on Table.StyledTableContainer:</p>
 
 ```css
 width: 70%;
+```
+
+<p>OR</p>
+
+```js
+<Table.StyledTableContainer width="70%"></Table.StyledTableContainer>
 ```
 
 ### Notice
